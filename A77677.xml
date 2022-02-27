@@ -1,0 +1,635 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A soliloquy of the soule, or, A pillar of thoughts with reasons proving the immortality of the soule / written by Sir Richard Baker, Knight.</title>
+            <author>Baker, Richard, Sir, 1568-1645.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1641</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 74 KB of XML-encoded text transcribed from 98 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A77677</idno>
+            <idno type="STC">Wing B512</idno>
+            <idno type="STC">ESTC R42576</idno>
+            <idno type="EEBO-CITATION">36282363</idno>
+            <idno type="OCLC">ocm 36282363</idno>
+            <idno type="VID">150020</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A77677)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 150020)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2225:3)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A soliloquy of the soule, or, A pillar of thoughts with reasons proving the immortality of the soule / written by Sir Richard Baker, Knight.</title>
+                  <author>Baker, Richard, Sir, 1568-1645.</author>
+               </titleStmt>
+               <extent>[193] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by T. Paine for Francis Eglesfield ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1641.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Imperfect: torn, stained and tightly bound, with loss of text.</note>
+                  <note>Reproduction of original in the Newberry Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Immortality.</term>
+               <term>Soul.</term>
+               <term>Theology, Doctrinal --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-10</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-10</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-11</date>
+            <label>Ali Jakobson</label>Sampled and proofread</change>
+         <change>
+            <date>2012-11</date>
+            <label>Ali Jakobson</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="engraved_title_page">
+            <pb facs="tcp:150020:1" rendition="simple:additions"/>
+            <p>
+               <figure>
+                  <p>A SOLILOQVY of the SOVLE: Or A PILLAR OF THOVGHTS. <hi>With reaſons proving y<hi rend="sup">e</hi> Jmmortality of the</hi> Sovle.</p>
+                  <p>by S<hi rend="sup">•</hi>. Rich: Baker. R<hi rend="sup">•</hi>.</p>
+                  <byline>W.M. ſculp.</byline>
+               </figure>
+            </p>
+         </div>
+         <div type="title_page">
+            <pb facs="tcp:150020:2"/>
+            <pb facs="tcp:150020:2" rendition="simple:additions"/>
+            <p>A SOLILOQVY OF THE SOVLE: Or, A PILLAR OF THOUGHTS.</p>
+            <p>With reaſons proving the Immortality of the Soule.</p>
+            <p>Written by Sir RICHARD BAKER, Knight.</p>
+            <p>LONDON: Printed by <hi>T. Paine,</hi> for <hi>Francis Eglesfield,</hi> at the Marigold in Pauls Church-yard. 1641.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:150020:3" rendition="simple:additions"/>
+            <pb facs="tcp:150020:3"/>
+            <head>TO MY WORTHILY much Honoured Bro<g ref="char:EOLhyphen"/>ther, Sir <hi>John Corbet</hi> of <hi>Stoke</hi> in the County of <hi>Salop,</hi> Baronet; and to his vertuous Lady.</head>
+            <p>
+               <seg rend="decorInit">H</seg>Aving heard you take pleaſure ſom<g ref="char:EOLhyphen"/>times to read ſome poor Writings of mine which have bin made publike to the
+<pb facs="tcp:150020:4"/>World, I have thought good to make one Writing proper to your <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap>; at leaſt, for which (if it be worth the thankes) the world ſhall thanke you, for being pub<g ref="char:EOLhyphen"/>like; For, but for your ſakes, and for teſtifying my love to you both, I had never, I thinke, had a thought of writing it. God hath bleſ<g ref="char:EOLhyphen"/>ſed you with a numerous iſ<g ref="char:EOLhyphen"/>ſue, as though he meant, for every one of your vertues, to
+<pb facs="tcp:150020:4"/>beſtow upon you a childe; and if, the fuller ones Quiver is of ſuch Arrowes, <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> happier he is; I may juſtly, with <hi>David,</hi> pronounce you a payre, that have as few your matches in happineſse, as in vertue. When I intended to write ſomthing to the memo<g ref="char:EOLhyphen"/>ry of your Names, becauſe I knew the ſeriouſneſſe of your diſpoſitions, and how farre you are from taking pleaſure in vaine diſcourſes; I made
+<pb facs="tcp:150020:5"/>choyce of an Argument, of all other the moſt ſerious: for, what ſo ſerious, as the im<g ref="char:EOLhyphen"/>mortality of the ſoule? Of which, though wee have Di<g ref="char:EOLhyphen"/>vine Teſtimonies, farre more forcible then any Humane Reaſons can be; yet it gives a kinde of ſatisfaction, to ſee Divine certainties ſeconded by Humane probabilities, and Faith by Reaſon; For though Divine proofes be more pro<g ref="char:EOLhyphen"/>portionable to the ſtronger
+<pb facs="tcp:150020:5"/>part of the Minde; yet na<g ref="char:EOLhyphen"/>turall reaſons make a greater impreſsion in the weaker part; at leaſt, both of them running one way, and ma<g ref="char:EOLhyphen"/>king both but one current; it cannot be denyed them, to make the beliefe, as <hi>Vis uni<g ref="char:EOLhyphen"/>ta,</hi> the ſtronger. Accept it then, moſt Honoured Brother &amp; ſiſter, with the like affecti<g ref="char:EOLhyphen"/>on as I offer it, and let him at leaſt have ſome place in your reſpects, who ſo much reſpects
+<pb facs="tcp:150020:6" rendition="simple:additions"/>you both; as profeſsing al<g ref="char:EOLhyphen"/>wayes to continue,</p>
+            <closer>
+               <signed>Your truly loving Brother to ſerve and honour you, <hi>RICHARD BAKER.</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:150020:6"/>
+            <head>A Soliloquie of the SOVLE: Or, <hi>A Pillar of Thoughts.</hi>
+            </head>
+            <p>
+               <seg rend="decorInit">A</seg>S <hi>Lots</hi> wife was tur<g ref="char:EOLhyphen"/>ned into a Pillar of Salt, that her inconſtancie night be fixt, and yet be melting ſtill: So thou, my <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oule, if I had my wiſh, <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ouldſt be turned into a
+<pb facs="tcp:150020:7"/>Pillar of Thoughts; that thy volubility might bee reſtrain'd, and yet be thin<g ref="char:EOLhyphen"/>king ſtill. And of what then is it, I would have thee to thinke? Not of the miſeries of the World, though there be cauſe e<g ref="char:EOLhyphen"/>nough; but alas, this would be too ſad a ſubject to thinke upon continually: Nor the Pleaſures of the world, though this were like to have all mens voy<g ref="char:EOLhyphen"/>ces;
+<pb facs="tcp:150020:7"/>but alas, they would ſcarce laſt ſo long, to hold out the thinking: Nor yet of the world it ſelf, though this would be a large field to walke in; but alas! not large enough for the ſwift Thoughts, that can run it over in an inſtant: No, my ſoule, but to think of God; for Hee onely is the cheer<g ref="char:EOLhyphen"/>full ſubject that can bee a co<g ref="char:cmbAbbrStroke">̄</g>fort to thee, when thou art in greateſt miſery; Hee
+<pb facs="tcp:150020:8"/>only the laſting object that can miniſter matter of me<g ref="char:EOLhyphen"/>ditation, when all vaine pleaſures ſhall have their period; He only, the large Field with varietie of walks, where thy thoughts may bee walking everla<g ref="char:EOLhyphen"/>ſtingly, and never come to the end. To thinke of the miſeries of the world, is to put the Thornes into my eyes, that were before but in my ſides; and make the
+<pb facs="tcp:150020:8"/>the harder, becauſe my ſenſe the tenderer; there<g ref="char:EOLhyphen"/>fore thinke not of miſeries. To thinke of the pleaſures of the world, would make me to bluſh for ſhame; and to weep for ſorrow, that I ſhould ever be enchanted by ſuch Syrens, and not ſee my folly, till I feele my fall; therefore thinke not of pleaſures. To thinke of the World, would make me thinke myſelfe at liber<g ref="char:EOLhyphen"/>ty,
+<pb facs="tcp:150020:9"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb facs="tcp:150020:9"/>
+               <gap reason="duplicate" extent="1 page">
+                  <desc>〈1 page duplicate〉</desc>
+               </gap>
+               <pb facs="tcp:150020:10"/>when I am but in a pri<g ref="char:EOLhyphen"/>ſon; and make me like the Dogge, that lyes biting upon the chaine that tyes him: therefore thinke not of the World. No, my ſoule, but thinke of God; for to be thinking of God, is a kinde of being preſent with him; and then what greater joy than to be pre<g ref="char:EOLhyphen"/>ſent with him, in whoſe preſence is the fulneſſe of joy for evermore. What
+<pb facs="tcp:150020:10"/>though the World take no notice of thy joy? Canſt thou not, <hi>In ſinu gaudere,</hi> &amp; keep thy joy to thy ſelfe? doth the Worlds knowing thy happineſſe, adde any thing to thy happines? No my ſoule, though thy thoughts be onely to thy ſelfe, yet let it ſuffice thee <hi>Tibi plaudere,</hi> and be thin<g ref="char:EOLhyphen"/>king of God ſtill. For thin<g ref="char:EOLhyphen"/>king is the food of the me<g ref="char:EOLhyphen"/>mory, which nouriſhe<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>
+               <pb facs="tcp:150020:11"/>it, and keepeth it in life; and without thinking, we ſtarve it; for what wee little thinke of, wee ſoone forget; and therefore, my ſoule, that thou mayſt not forget him, who onely is worthy to be remembred, bee thinking of God ſtill. For to thinke of God is ne<g ref="char:EOLhyphen"/>ver out of ſeaſon; all other thoughts have their fits; are fit at one time, unfit at another; but to thinke of
+<pb facs="tcp:150020:11"/>God is fit for all times; In adverſity; to mitigate; in proſperity, to moderate; in ſickneſſe, to conſolate; and in health, to conſoli<g ref="char:EOLhyphen"/>date; It is indeed the ſu<g ref="char:EOLhyphen"/>perlative thought, and ſers a ſpel to al other thoughts, that none can come neer it, none in any degree beare a<g ref="char:EOLhyphen"/>ny proportionw it &amp; the<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> fore that thou maiſt not be in the reere of thoughts, be thinking of God ſtill.</p>
+            <pb facs="tcp:150020:12"/>
+            <p>But if thou be alwayes thinking of God, it be<g ref="char:EOLhyphen"/>hooves thee to be carefull what thou thinkeſt; for to thinke unworthily of him, thou wert better be thin<g ref="char:EOLhyphen"/>king of ſomething elſe; and alas, being ſo dazeled with his brightneſſe, ſo aſtoni<g ref="char:EOLhyphen"/>ſhed at his Greatneſſe, as I <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n; what can I thinke, that is worthy of him, in the leaſt degree? For what an ring have my thoughts,
+<pb facs="tcp:150020:12"/>but either Memory, or Vn<g ref="char:EOLhyphen"/>derſtanding? and what can my Memory think wor<g ref="char:EOLhyphen"/>thy of him, that is time out of minde? What can my Vnderſtanding apprehend worthy of him, that paſſeth all underſtanding? If I thinke of the time paſt, I finde, that was, but is not: If I thinke of the time pre<g ref="char:EOLhyphen"/>ſent, I find that paſt while I am thinking: If I thinke of the time to come, I find
+<pb facs="tcp:150020:13"/>it cannot be found whether ever it will be, or no: and what are theſe to him, of whom it is truely ſaid, As he was in the beginning, is now, and ever ſhall bee, world without end. I can think of him indeed, as he is Eternall, but then it muſt be an Eternity by ſucceſſi<g ref="char:EOLhyphen"/>on of time, in which there is ſomething before, and ſomething after; where his Eternity is all at once, and
+<pb facs="tcp:150020:13"/>hath nothing to doe with time, nor time with it, ſee<g ref="char:EOLhyphen"/>ing he is alwayes the ſame, and his yeeres never faile. I can thinke of him, as hee is infinite, but then, it muſt be an infiniteneſſe by ex<g ref="char:EOLhyphen"/>tenſion of Magnitude; and that the work only of Ima<g ref="char:EOLhyphen"/>gination, or conceit; where his Infiniteneſſe is a Tran<g ref="char:EOLhyphen"/>ſcendent to Quantity, and leaves imagination behind it, and conceit below it;
+<pb facs="tcp:150020:14"/>or rather, makes Imagina<g ref="char:EOLhyphen"/>tion weary, and Conceit a<g ref="char:EOLhyphen"/>ſhamed. I can perhaps ap<g ref="char:EOLhyphen"/>prehend more than he is, but not ſo much: for I can apprehend many gods; but all of them, not ſo much, as he that is but One. And why then would I ſo faine be thinking of him, when I can think of nothing that is worthy of him? Yet I muſt thinke of him, or I can thinke of nothing that
+<pb facs="tcp:150020:14"/>is worth the thinking of. If I thinke of the wiſdome of <hi>Salomon;</hi> If of the beau<g ref="char:EOLhyphen"/>ty of <hi>Abſalom;</hi> If of the ſtrength of <hi>Sampſon:</hi> Alas! what are theſe to think of? Great indeede, to bee thought of, by themſelves; but compar'd with his wiſ<g ref="char:EOLhyphen"/>dome, with his beauty, with his ſtrength, they are leſſe then nothing. When I can meaſure out the Sea by dioppes, and when I can
+<pb facs="tcp:150020:15"/>ſum up the Sands with Counters, I may then hope to finde out ſomething to thinke of, that is worthy of him.</p>
+            <p>But though I cannot ap<g ref="char:EOLhyphen"/>prehend him, as he is <hi>unum integrale,</hi> One entire being, yet I may perhaps appre<g ref="char:EOLhyphen"/>hend him, as Humane Ca<g ref="char:EOLhyphen"/>pacity conceiveth him in parts Alas, no better at all. For if I thinke of his, Providence, and his Provi<g ref="char:EOLhyphen"/>dence
+<pb facs="tcp:150020:15"/>is the moſt viſible Character in his Oecono<g ref="char:EOLhyphen"/>my of the World; I finde my ſelfe even confounded with the courſe hee hol<g ref="char:EOLhyphen"/>deth in it; Why he ſuffers the wicked of the World to proſper and flouriſh, and the godly whom he loveth beſt, and who love him beſt, to be in affliction? as though he did miſtake ei<g ref="char:EOLhyphen"/>ther his bleſſings, or them he bleſſeth; taking <hi>Ephraim</hi>
+               <pb facs="tcp:150020:16"/>for <hi>Manaſſes,</hi> and <hi>Manaſſe,</hi> for <hi>Ephraim,</hi> as old <hi>Jacob</hi> did? If I thinke of his Ju<g ref="char:EOLhyphen"/>ſtice (and every one hath a right in Juſtice) I am then confounded to think, why <hi>Abel,</hi> that was the firſt Saint ſhould be the firſt Martyr; and why <hi>Cain,</hi> that was the Murtherer of his brother, ſhould have the bleſſing of long life? as though it were juſtice with him to puniſh an innocent, and to
+<pb facs="tcp:150020:16"/>reward an offender? If I thinke of his Power (and power will alwayes make it ſelf be thought of) I am then confounded to thinke how hee could make all things of nothing, and why they are ſaid to bee the workes of his hands, when yet they were made with a word of his mouth? as though Nature were not worthy to be his Appren<g ref="char:EOLhyphen"/>tice, and as though it were
+<pb facs="tcp:150020:17"/>with him but a word and a deed? But moſt of all, if I thinke of his Mercy (and his mercy is over all his workes) I am then con<g ref="char:EOLhyphen"/>founded to thinke how it can be mercy in him, to give the life of his Sonne, to ſave the lives of his E<g ref="char:EOLhyphen"/>nemies; an Innocent for Delinquents, a Lambe for Wolves, a God for men? O my ſoule, this may well be thy aſtoniſhment, ſee<g ref="char:EOLhyphen"/>ing
+<pb facs="tcp:150020:17"/>it is the wonder of An<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>els: But though his Ju<g ref="char:EOLhyphen"/>tice may be brought in <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ueſtion by it; yet his Mercy certainly it makes <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ut of queſtion; for what reater Mercy, then to ſave <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>lany by One; and many <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hat could not helpe them<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>elves, by one that could <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oth ſave himſelfe and o<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>ers? Neither yet is his <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>uſtice brought in queſti<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>n by it; for is it not juſt,
+<pb facs="tcp:150020:18"/>that as hee did make man by his word, which is his Sonne; ſo hee ſhould ſave man by his Sonne who is the Word? Is it not juſt he ſhould imploy his Son where moſt honour might be gotten? and is there a<g ref="char:EOLhyphen"/>ny greater honor than that which he hath gotten by this imployment, to ſit at the right hand of his Fa<g ref="char:EOLhyphen"/>ther; and to have a Name at which both men and
+<pb facs="tcp:150020:18"/>Angels muſt bow their knees.</p>
+            <p>And now, O my ſoule, thou haſt found out a thing in God, moſt worthy for thee to thinke of, of him to be thought; for as his mercy is over al his works, ſo it may juſtly take up all thy thoughts. But can no<g ref="char:EOLhyphen"/>thing be found in God, worthy to be thought of, but his Mercy? Not his Wiſdome? Not his Pow<g ref="char:EOLhyphen"/>er?
+<pb facs="tcp:150020:19"/>Not his Juſtice? Yes, my ſoule, moſt worthy to be thought of, all of them, but not ſo much; or if as much in themſelves, yet not of us; and therefore not ſo much of us, becauſe not communicated ſo much to us: For, his Wiſedome is to us a ſe<g ref="char:EOLhyphen"/>cret; his Power, a tran<g ref="char:EOLhyphen"/>ſcendent; his Juſtice, an abyſſus; onely his Mercy offers to communicate it
+<pb facs="tcp:150020:19"/>ſelfe to us: that if it were not for his Mercy, we nei<g ref="char:EOLhyphen"/>ther could hope, nor durſt preſume to have Acceſſe unto him: and therfore in all our ſuites, we Pray him not to heare us, for his wiſ<g ref="char:EOLhyphen"/>domes ſake, or for his pow<g ref="char:EOLhyphen"/>ers ſake, or for his Juſtice ſake, but only &amp; alwaies for his Mercyes ſake. It is his Mercy that emboldens us when we are fearefull, that encourageth us whe<g ref="char:cmbAbbrStroke">̄</g> we are
+<pb facs="tcp:150020:20"/>doubtfull. It is his Mercy that directs us when wee are Erring, that upholds us when we are falling; and indeed his Mercy not on<g ref="char:EOLhyphen"/>ly is Invocated by us, but is it ſelfe an Advocate for us: that we may truly ſay; Of all his Attributes there is none hath Bowells in it, but only his Mercy. Here therefore, My ſoule, Fixe<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> thy Pillar of Thoughts, and let this Mercy of God
+<pb facs="tcp:150020:20"/>be thy perpetuall Object: For, as ſome ſuperſtitious in the ſect of <hi>Mahomet,</hi> when they have once ſeen his Tombe at <hi>Mecha,</hi> pull out their Eyes preſently, as never poſsible to ſee ſo worthy a ſight againe: ſo Thou, my Soule, when thou haſt once entred up<g ref="char:EOLhyphen"/>on this Thought of Gods Mercy, thou mayeſt ſeale up the doores of thy Heart, as never poſsible to
+<pb facs="tcp:150020:21"/>let in ſo comfortable a Thought againe.</p>
+            <p>But if, with all thy think<g ref="char:EOLhyphen"/>ing, thou canſt not ſuffici<g ref="char:EOLhyphen"/>ently apprehend it, then at leaſt admire it; that by ad<g ref="char:EOLhyphen"/>miring it, thou maiſt bee drawne to love it; or rather, to love him for it; yet not to love him onely for his mercy to thee, but for his mercy; and not onely for his being Merci<g ref="char:EOLhyphen"/>full, but for his being: for
+<pb facs="tcp:150020:21"/>then, my ſoule, thou loveſt God truely, when thou loveſt him for himſelfe, and not for his benefits; for how elſe canſt thou ſay with <hi>Job, Though thou kill mee, O Lord, yet will I love thee.</hi> Indeede to love God, apart from his be<g ref="char:EOLhyphen"/>nefits, is a worke for the ſoule, when it is parted from the Body; for as long as wee live in this world of Vanity, our love
+<pb facs="tcp:150020:22"/>to God, I may ſay, is but Mercenary; even <hi>David,</hi> as much a man as he was after Gods owne heart, yet ſaith but this; <hi>I love thee, O Lord, becauſe thou haſt heard my ſupplication:</hi> So this Benefit of God was the Motive of his love to God; that if it had not beene for this motive, his love to God might have beene as little as anothers. O ye bleſſed Seraphins,
+<pb facs="tcp:150020:22"/>that burne with an ardour of this love of God; how happy are ye in this your ardour? and though I can<g ref="char:EOLhyphen"/>not wiſh to be a Seraphin, yet I wiſh, at leaſt, ſome portion of your ardour; for then I ſhould love God, not for his benefits, but for himſelfe; and not love my ſelfe, but only for him. And yet, O my ſoule, that thou couldeſt love God but as <hi>David</hi> did,
+<pb facs="tcp:150020:23"/>though but onely for his Benefits; for then, at leaſt, thou mighteſt bee a ſoule after Gods owne heart, as <hi>David</hi> was. And why, my ſoule, ſhouldeſt thou not? Alas, why doſt thou not love him as <hi>David</hi> did; ſeeing thou haſt as great Motives as <hi>David</hi> had? For what was his Motive, but that God heard his ſupplication? and what was his ſupplicatio<g ref="char:cmbAbbrStroke">̄</g>, but that
+<pb facs="tcp:150020:23"/>God would defend him from his Enemies, from Sin and Satan? and doe not theſe aſſault thee, as ſtrongly as they did <hi>Da<g ref="char:EOLhyphen"/>vid?</hi> And have they not overcome thee; at leaſt had they not overcome thee, if God had not defended thee? O my ſoule, It is the great mercy of God, that ſinne hath not already ſwallowed thee up; and that thou haſt not long
+<pb facs="tcp:150020:24"/>ſince beene made a prey to Satan. If therefore, my ſoule, thou canſt not ap<g ref="char:EOLhyphen"/>prehend the greatneſſe of Gods mercy by conſide<g ref="char:EOLhyphen"/>ring it in it ſelfe, then take a view of it by conſidering the greatneſſe of thy ſin: For, as they that cannot looke upon the brightnes of the ſunne as it is in it ſelfe, doe, by looking in the water, come to diſ<g ref="char:EOLhyphen"/>cerne it in ſome meaſure:
+<pb facs="tcp:150020:24"/>ſo, though thou canſt not apprehend Gods mercy, as it is in it ſelfe; yet by viewing it as it were in the water of thy ſinnes (Alas! in themſelves a filthy pud<g ref="char:EOLhyphen"/>dle, but for this purpoſe a cleare ſtreame,) thou maiſt come to apprehend it, at leaſt, in ſome propor<g ref="char:EOLhyphen"/>tion. For according to the greatneſſe of thy ſin, is the greatneſſe of Gods mercy in forgiving thy ſinne. But
+<pb facs="tcp:150020:25"/>in conſidering thy ſinne, let this be a part of thy Pillar of Thoughts; that as Chriſts wounds were re<g ref="char:EOLhyphen"/>maining on his body at his Reſurrectio<g ref="char:cmbAbbrStroke">̄</g>, ſo the wounds of thy ſinne will remaine upon thy ſoule at the day of Judgement; and leaſt thou ſhouldeſt thinke in ſo long a time they might all be forgotten, let this alſo be added to thy thoughts; that there will then bee
+<pb facs="tcp:150020:25"/>kept a ſeſſions, where al the circumſtances of thy ſins will be ſummoned to meet together, to give Evidence againſt thee: and then Time it ſelfe will come in, and tell the very houre, when; Place it ſelfe will come in, and ſhew the very roome, where; the Per<g ref="char:EOLhyphen"/>ſons themſelves will come in, and preſent the very fa<g ref="char:EOLhyphen"/>ces of them, with whom, or againſt whom thou
+<pb facs="tcp:150020:26"/>didſt commit any ſinne, in the whole courſe of thy life: &amp; al as viſibly, as when the ſinnes were a doing; and even thy evil thoughts which yet never came fur<g ref="char:EOLhyphen"/>ther then the cloyſter of thy heart, will then come forth as freſh, as when they were a thinking; and all thy prophane words, as audible, as when they were a ſpeaking; and all thy fil<g ref="char:EOLhyphen"/>thy writings, as legible as
+<pb facs="tcp:150020:26"/>when they were a writing; and leſt there ſhould want an accuſer, as there did to the Adultreſſe in the Goſ<g ref="char:EOLhyphen"/>pel, Satan himſelfe will take that Office upon him, and doe it moſt ſpitefully; in ſuch ſort, my ſoule, that it cannot be ſaid, whether thy ſhame or thy Horrour will then be greater: thy ſhame, to ſee thy filthines diſcovered and laid open before all people; or thy
+<pb facs="tcp:150020:27"/>horrour, to finde thy caſe deſperate, and paſt all hope or poſſibility of relieving. And is it not time, before this time, to thinke of that time? a fearefull thing to thinke of, I confeſſe; but without thinking of it now, there will be no helping of it then; and therefore thinke of it, my ſoule, but thinke of it to prevent it: and as deſperate as thy caſe may be, yet doe not
+<pb facs="tcp:150020:27"/>deſpaire: Never yeelde, how great ſo ever thy ſin be, or be made appeare to be, that it can be greater, or any thing neere ſo great as Gods mercy: For com<g ref="char:EOLhyphen"/>pare them, my ſoule, to<g ref="char:EOLhyphen"/>gether; Thy ſin is great, becauſe a tranſgreſſion of Gods law; but Gods mer<g ref="char:EOLhyphen"/>cy muſt needes be greater, becauſe a law to himſelfe: Thy ſinne is no more then thou art able to doe; but
+<pb facs="tcp:150020:28"/>Gods mercy is more then thou art able to think: thy ſin is but a Plot of Satans to entrap thee; but Gods mercy is his owne purpoſe to relieve thee; thy ſin is but infinite in Relation; but Gods mercy is infinite in it ſelf, and abſolutely: thy ſin is but an Accidentall thing in thee; but Gods mercy, I may ſay, is his very ſub<g ref="char:EOLhyphen"/>ſtance; that as much as him<g ref="char:EOLhyphen"/>ſelf is greater then thy ſelf;
+<pb facs="tcp:150020:28"/>ſo much his mercy is grea<g ref="char:EOLhyphen"/>ter then thy ſin: and indeed, if thy ſin could be greater then Gods mercy, there ſhould be ſomthing in thee greater then that which is greateſt in God: for of all the things that humane ca<g ref="char:EOLhyphen"/>pacity conceiveth to be in God, there is none greater then his mercy, none ſo great as his mercy: at leaſt as greater and leſſer may be conceived, where all are Infinite.</p>
+            <pb facs="tcp:150020:29"/>
+            <p>But though Gods mer<g ref="char:EOLhyphen"/>cy bee greater then any mans ſinne, yet any mans ſinne may come to bee greater then Gods mercy; if either deſpaire reject it, or preſumption ſlight it: for both theſe are of force to make Gods mercy of no force, at leaſt of no force to forgive, becauſe they leave no capacity to be forgiven. For all ca<g ref="char:EOLhyphen"/>pacity of Forgiveneſſe is
+<pb facs="tcp:150020:29"/>then clean barred up, when either Deſpaire or Pre<g ref="char:EOLhyphen"/>ſumption ſtand at the En<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>rance. In all other caſes, Gods mercy hath the Pre<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>eminence, and makes the greateſt ſinnes become like <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>loudes, either blowne a<g ref="char:EOLhyphen"/>way, as with the wind of his goodneſſe; or elſe diſ<g ref="char:EOLhyphen"/>ſolved, as with the ſunne of his kindneſſe.</p>
+            <p>And now, my ſoule, thy <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>houghts, me thinkes, are
+<pb facs="tcp:150020:30"/>come to ſome faſhion of a Pillar; they are ſolid and firme, and want but Erect<g ref="char:EOLhyphen"/>ing; but all the difficulty is to erect them: for though Gods mercy, if once attay<g ref="char:EOLhyphen"/>ned, bee greater then any mans ſinne; yet it is no eaſie matter to attaine it, ſeeing there is no attaining it, but from his Mercy ſeate; and his Mercy ſeate is the higheſt part of all his Arke, and this muſt needes
+<pb facs="tcp:150020:30"/>bee a great height, farre higher then wee of our ſelves are ever able to reach: No, my ſoule, there is no way to reach it, no meanes to climbe up to it, but onely by <hi>Iacobs</hi> ladder, which ladder is Chriſt: and if in climbing up this ladder, there bee not the greater heede taken, in ſtead of rayſing thee up, it will but caſt thee down, &amp; give thee the greater Fall.
+<pb facs="tcp:150020:31"/>Thou muſt not therefore doe as the Apoſtate An<g ref="char:EOLhyphen"/>gels did; aſcend firſt, and then deſcend: aſcend firſt in Preſumption, and then deſcended in Deſpaire: A<g ref="char:EOLhyphen"/>ſcend firſt, in ſcorning this ladder, as thinking their owne nature more worthy for the Sonne of God to take, then the ſeed of the woman; and then deſcend by falling off the ladder, and have their
+<pb facs="tcp:150020:31"/>heads broken by the ſeed of the woma<g ref="char:cmbAbbrStroke">̄</g>: no, my ſoule, thou muſt take a contrary courſe; Deſcend firſt, and then Aſcend: Deſcend firſt in Humility, &amp; the<g ref="char:cmbAbbrStroke">̄</g> Afcend in Hope: Deſcend firſt in<g ref="char:EOLhyphen"/>to a ſerious confideratio<g ref="char:cmbAbbrStroke">̄</g> of thy ſin, and then Aſcend to a ſtedfaſt apprehenſion of Gods mercy; Deſcend firſt with Chriſt into Hell, by Patience in Adverſity, and then Aſcend up with him
+<pb facs="tcp:150020:32"/>into Heaven by a lively Faith, and by a Heavenly converſation: For, thus Aſ<g ref="char:EOLhyphen"/>cending, thou ſhalt bee out of the reach of Time, and Place, and all other cir<g ref="char:EOLhyphen"/>cumſtances of thy ſinne; and, which is moſt of all, thou ſhalt be out of Satans walke, which goes no fur<g ref="char:EOLhyphen"/>ther then compaſsing the Earth, that thou needeſt not now to feare, ei<g ref="char:EOLhyphen"/>ther their Teſtimonie, o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> his Accuſation.</p>
+            <pb facs="tcp:150020:32"/>
+            <p>But, O my ſoule, there is one ſtep of this ladder yet behind, without which thou canſt never climbe up ſo high as to Gods Mercy<g ref="char:EOLhyphen"/>ſeat; and the ſtep is this: to Referre all thy Thoughts, thy Wordes and Actions to the glory of God: For if thou ſhouldeſt have faith, that thou couldeſt re<g ref="char:EOLhyphen"/>move Mountaines; if thou ſhouldeſt performe all the Workes of the Law, as ex<g ref="char:EOLhyphen"/>actly
+<pb facs="tcp:150020:33"/>as any <hi>Sadducee,</hi> and not referre them to Gods glory; they would all bee taken but for ungratefull complements, and bee of no account, nor thou for them in any account with God. And great reaſon it ſhould bee ſo; for, why did God make the World, and all that is in the world, but onely for his glory? &amp; ſhall any, that live in the world, have another End
+<pb facs="tcp:150020:33"/>in uſing it, then God had in making it? ſhall man, that is made after his I<g ref="char:EOLhyphen"/>mage, doe no more to the ſetting forth of Gods glo<g ref="char:EOLhyphen"/>ry, then every creeping thing of the Earth? be on<g ref="char:EOLhyphen"/>ly a paſsive inſtrument of his glory, &amp; not an active? Can hee take it well at his ſervants hands, to be back<g ref="char:EOLhyphen"/>wardeſt in a ſervice in w<hi rend="sup">ch</hi> they ſhould be forwardeſt; to neglect his greateſt
+<pb facs="tcp:150020:34"/>worke, and then thinke to pleaſe him with Tything of Mint? canſt thou looke to have Recompenſe of God for thy ſervice; and God to have no recom<g ref="char:EOLhyphen"/>penſe of thee for his fa<g ref="char:EOLhyphen"/>vours? and what recom<g ref="char:EOLhyphen"/>penſe? what <hi>Retribuam Domino</hi> haſt thou for God, but onely to take <hi>Calicem ſalutaris,</hi> to Glorifie his Name? How can any man juſtly complaine of his
+<pb facs="tcp:150020:34"/>meane eſtate, when the meaneſt man that is, hath that in him, which is in man the moſt excellent thing? and what is that moſt excellent thing? what my ſoule; but a power to glorifie God? for this Power is a greater Digni<g ref="char:EOLhyphen"/>tie then the greateſt digni<g ref="char:EOLhyphen"/>tie of any earthly Power: It is the worke which An<g ref="char:EOLhyphen"/>gels doe in Heaven; and is there any worke done in
+<pb facs="tcp:150020:35"/>Heaven, that is not better then the beſt that is done on Earth? and more then this, it is the very worke that makes the Angels happy; for without doing this worke they could not be happy: and if we want any thing in this life of being happie, it is becauſe we want ſomething of do<g ref="char:EOLhyphen"/>ing this worke. For never ſhall wee come to be per<g ref="char:EOLhyphen"/>fectly happie, till we come
+<pb facs="tcp:150020:35"/>to be able to doe this work perfectly. What was wan<g ref="char:EOLhyphen"/>ting in the Morall vertues of Heathen men, but only this, that they referred them to their owne, and not to Gods glory? <hi>Ari<g ref="char:EOLhyphen"/>ſtides</hi> in a high degree was juſt; <hi>Cato,</hi> ſober; <hi>Socrates,</hi> Patient; <hi>Regulus,</hi> Con<g ref="char:EOLhyphen"/>ſtant; all excellent parts towards the perfecting of a Building; but yet no be<g ref="char:EOLhyphen"/>nefit of them, becauſe they
+<pb facs="tcp:150020:36"/>came not up to the Roofe they had not the Crowne of Glory to God; &amp; ther<g ref="char:EOLhyphen"/>fore not the crowne of re<g ref="char:EOLhyphen"/>ward to themſelves. It is an eaſie leſſon to ſay, but a hard to learne; and few but <hi>David</hi> have ever practiſed it; <hi>Not unto us, O Lord, not unto us, but unto thy Name give the Glory:</hi> for is it not, that we ſeeme all to have a ſpice of Lucifer in us? though we can bee
+<pb facs="tcp:150020:36"/>content to allow the grea<g ref="char:EOLhyphen"/>teſt glory to God; yet faine wee would reſerve ſome at leaſt for our ſelves: when, alas, if wee reſerve any at all to our ſelves, we leave none at al for God; for neither is glory a thing that can bee parted; neither is God one that can endure a part<g ref="char:EOLhyphen"/>ner, and ſpecially in his Glory: for though all his Attributes be Excellent &amp;
+<pb facs="tcp:150020:37"/>Admirable; yet Majeſtie is Attributed to none of them but to his Glory: As it is in the Angels ſong, <hi>Heaven and earth are full of the Majeſty of thy Glory:</hi> and what greater Derogation to Majeſtie then to have a Partner? Indeede Gods Glory is in it ſelfe moſt perfect alwaies; and no<g ref="char:EOLhyphen"/>thing that man can doe, can either adde to it, or detract from it: but ſuch
+<pb facs="tcp:150020:37"/>is Gods graciouſneſſe to us, ſo great his deſire to endeere us to him; that he infinitely overvalues our Endeavours, and ſets a farre greater price upon them then they are worth; counting, as if wee added to it, when we detract not from it; at leaſt, as if wee then give it him, when we aſcribe it to him. If therfore, O my ſoule, thou wilt ever be admitted into
+<pb facs="tcp:150020:38"/>the quire of Angels, to ſing, <hi>Holy, Holy, Holy Lord God of Sabbaoth, Heaven and Earth are full of the Majeſtie of thy Glory;</hi> It muſt bee thy care, thy principall, and, I may ſay, thy onely care, to aſcribe all Glory and Praiſe to God, and to him only; that if the An<g ref="char:EOLhyphen"/>gells will undertake for Heaven, thou for thy part mayeſt undertake for the Earth; that their ſong ſhall
+<pb facs="tcp:150020:38"/>ſung out to the End; <hi>Hea<g ref="char:EOLhyphen"/>ven and Earth are full of the Majeſtie of thy Glory:</hi> that when both of them be full of his glory, there may be no roome left for any of ours.</p>
+            <p>And thus, my ſoule, when thou haſt made thee a Pillar of Thoughts, with theſe three, as I may call them, Pretious ſtones: The conſideration of thy ſin, with a penitent heart;
+<pb facs="tcp:150020:39"/>The apprehenſio<g ref="char:cmbAbbrStroke">̄</g> of Gods mercy with a Faith unfai<g ref="char:EOLhyphen"/>ned; &amp; the Referring all to the Glory of God with an humble Reverence; thou wilt then be able to climbe up this ladder of <hi>Jacob,</hi> to the uppermoſt ſtep: where meeting with ſaints and holy Angels, that ſtand ready to receive thee, thou wilt bee taken into the number of their ſociety: the happineſſe of which
+<pb facs="tcp:150020:39"/>co<g ref="char:cmbAbbrStroke">̄</g>pany, the joy of which Happineſſe, the greatnes of which joy, no Pillar of Thoughts can ever reach ſo high, as to apprehend; no, my ſoule, not ſo much as to Imagine: Yet adde this one Thought more to thy Pillar, to thinke of the great Difference of the Happineſſe that will bee then, and the Happineſſe that can bee now; for all our happineſſe now, is
+<pb facs="tcp:150020:40"/>but Expectation of happi<g ref="char:EOLhyphen"/>neſſe; we joy not ſo much in that we are, whatſoever we are; as in that we hope we ſhall be, though wee know not what wee ſhall be; the minde is ſo long<g ref="char:EOLhyphen"/>ing after the Future, that it never reſts ſatisfied with the preſent; nor ever will, till there ſhall be no more Future to long after, but all ſhall be preſent; &amp; then at laſt I ſhal have my wiſh;
+<pb facs="tcp:150020:40"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>or thou, my ſoule, wilt <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hen be turned into a Pil<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ar of Thoughts; they will <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ot then bee voluble nor moveable, as now they are, being out of their right place, and having various objects; but they will be quiet and quieſcent, as be<g ref="char:EOLhyphen"/>ing fixt in their true cen<g ref="char:EOLhyphen"/>ter, and fixed upon their proper object, The beau<g ref="char:EOLhyphen"/>tifull face of God bleſſed for ever; and never till
+<pb facs="tcp:150020:41"/>then will thy ſtate be capa<g ref="char:EOLhyphen"/>ble of this counſell, <hi>Quod ſis eſſe velis, nihilque ma<g ref="char:EOLhyphen"/>lis.</hi>
+            </p>
+            <p>But, O My ſoule, though thou have rayſed thy thoughts to a great height, &amp; they ſeeme to have ſome ſolidneſſe in them; yet there is one doubt muſt bee cleared, before they can come to be a Pillar: for if the ſoule periſh with the body, as ſome vaine
+<pb facs="tcp:150020:41"/>men Imagine, what will then become of thy thoughts? <hi>For the breath of man goeth out, he returnes againe to Earth, and then all his Thoughts periſh:</hi> and if all his thoughts periſh, he can then think no more; &amp; if he can thinke no more, there can be no ſoule. For as theſoule is the life of the Body, ſo thinking is the life of the ſoule: That without thinking, at leaſt
+<pb facs="tcp:150020:42"/>without a power to think it is a thing vaine to think there can be a ſoule. It is more vaine conceite, the to build caſtles in the ayre to think the ſoule lives wh<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> it is vaniſhed into ayre, an<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> of which when it dyes it i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> truly ſaid; <hi>Et procul in tenu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> em evanuit auram.</hi> For th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſoule is a Breath, and th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> death of the ſoule is th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> laſt gaſpe of that breath and this is ſo plaine, tha<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <pb facs="tcp:150020:42"/>
+               <hi>Salomon</hi> affirmes plaine<g ref="char:EOLhyphen"/>ly; <hi>As a Beaſt dyeth, ſo dyeth a man; for they have all one Breath, all goe unto one place: and who knoweth the ſpirit of man that goeth upward, and the ſpirit of a beaſt that goeth downeward?</hi> And ſhall wee now thinke the ſoule lives, becauſe we know not how it dyes? ſhall wee therefore thinke there is a difference after death, betwixt the ſoule
+<pb facs="tcp:150020:43"/>of a man and the ſoule of a Beaſt, becauſe we ſee there is no difference, nor none to be ſeene? What is this but to give the ſoule a Be<g ref="char:EOLhyphen"/>ing, out of our owne not-knowing; and to make our ignorance her Foundation? Had the ſoule any being, but by being in the body; and how then can it have any longer being, then while it is in the body? If it be truely ſaid; <hi>Infun<g ref="char:EOLhyphen"/>dendo
+<pb facs="tcp:150020:43"/>creatur, &amp; creando infunditur;</hi> why is it not as truly ſaid, <hi>Extinguendo Exit, &amp; Exeundo Extingui<g ref="char:EOLhyphen"/>tur?</hi> Is the ſoule any thing but a temper of the Body; and when that temper cea<g ref="char:EOLhyphen"/>ſeth, then alſo the ſoule, as well in man as in beaſt' ceaſeth? If the ſoule ſhould remaine after the body, it muſt remaine without its Faculties, at leaſt without a power to vſe its Facul<g ref="char:EOLhyphen"/>ties.
+<pb facs="tcp:150020:44"/>And were not this a blemiſh to nature to give the ſoule Faculties; and not give a power to be able to uſe them? and uſe them it cannot without the bo<g ref="char:EOLhyphen"/>dy; and therefore without the body, without wrong to nature, we cannot think there can be a ſoule.</p>
+            <p>But, O my ſoule, what aſperſions are theſe upon Nature? Or rather what blaſphemies againſt the
+<pb facs="tcp:150020:44"/>God of Nature? For did not God breath the ſoule of man into his body at firſt; and can Gods breath be ever out of breath? No more can the ſoule ever ceaſe to be. Did not God make the body and ſoule aſunder; and ſhall they not continue to be, when they are aſunder? The body gives not life to the ſoule; but it is the ſoule that gives life to the body:
+<pb facs="tcp:150020:45"/>and ſhall that which gi<g ref="char:EOLhyphen"/>veth life ceaſe to bee, be<g ref="char:EOLhyphen"/>cauſe that, to which it gi<g ref="char:EOLhyphen"/>veth life, ceaſeth to bee? can any thing periſh that hath no contraries; at leaſt nothing within it, or with<g ref="char:EOLhyphen"/>out it, to oppoſe it? For all things periſh by one of theſe oppoſites; but the ſoule is a ſimple ſubſtance, uncompounded, &amp; with<g ref="char:EOLhyphen"/>out mixture; and there<g ref="char:EOLhyphen"/>fore neither hath contra<g ref="char:EOLhyphen"/>ries,
+<pb facs="tcp:150020:45"/>nor any thing within it, or without it, to oppoſe it; and therefore cannot periſh: and therefore is immortall. Can any thing periſh, that is <hi>Principium ſibi ipſi,</hi> is life to it ſelfe; and ſuch a <hi>Principium</hi> hath God made the ſoule of man, and therefore can<g ref="char:EOLhyphen"/>not periſh, and therefore is immortall. The body pe<g ref="char:EOLhyphen"/>riſheth not by Annihila<g ref="char:EOLhyphen"/>ting, but by being turned
+<pb facs="tcp:150020:46"/>into its firſt matter, which was not the ſame that now it is, but duſt and earth: Neither can the ſoule periſh by Annihilating, but by being turned into its firſt matter, which was the ſame at firſt that now it is; and therefore other, then now it is, it can never bee, and therefore is Im<g ref="char:EOLhyphen"/>mortall. If the ſoule were made by God, and not made Immortall, either
+<pb facs="tcp:150020:46"/>it was becauſe hee could not make it ſuch, or be<g ref="char:EOLhyphen"/>cauſe hee would not: to ſay hee could not, is to make him no God, be<g ref="char:EOLhyphen"/>cauſe not omnipotent. To ſay hee would not, is to make him not good, be<g ref="char:EOLhyphen"/>cauſe no rewarder of his ſervants; for what reward<g ref="char:EOLhyphen"/>ing if the ſoule be mortal? An Angell can put on a body, though nature have ordained it none, and yet
+<pb facs="tcp:150020:47"/>bee a perfect Angell ſtill; and why not the ſoule put off a body, though Na<g ref="char:EOLhyphen"/>ture have aſſigned it one: and yet remaine a perfect ſoule ſtill? God made man in his own image, and where i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> is Gods image ſo appar<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> as in mans im<g ref="char:EOLhyphen"/>mortality? and wherein is mans immortality ſo ap<g ref="char:EOLhyphen"/>parent, as in his ſoule? The ſoule had a beeing when it came into the body, and
+<pb facs="tcp:150020:47"/>ſhall it not have a being when it goes out of the body? was it ſeparate then, and is it inſeparable now? But then we muſt not con<g ref="char:EOLhyphen"/>ceive the ſoule of man to be ſuch a kinde of thing as the ſoule of a beaſt is. For the ſoule of a Beaſt is per<g ref="char:EOLhyphen"/>haps nothing elſe but the very life of the beaſt; or if a ſoule, yet ſuch a one as is endued onely with the Faculties of ſenſe and ve<g ref="char:EOLhyphen"/>getation,
+<pb facs="tcp:150020:48"/>which depen<g ref="char:EOLhyphen"/>ding upon bodily Organs, muſt needes decay with the decay of thoſe organs, and periſh with the body: but the Soule of man is a heavenly ſubſtance, endu<g ref="char:EOLhyphen"/>ed beſides ſenſe and vege<g ref="char:EOLhyphen"/>tation, with the divine Fa<g ref="char:EOLhyphen"/>cultie of reaſon and under<g ref="char:EOLhyphen"/>ſtanding, which not depen<g ref="char:EOLhyphen"/>ding upon bodily Organs, neither decayeth with their decaying, nor yet pe<g ref="char:EOLhyphen"/>riſheth
+<pb facs="tcp:150020:48"/>with the body, but is a ſubſtance ſubſiſting of it ſelfe; and as being a ſpirit, when once it leaves the body, aſcends up to the place of ſpirits; where God himſelfe is, who is the Father of Spirits; as <hi>Eccleſiaſtes</hi> ſaith; <hi>The Spi<g ref="char:EOLhyphen"/>rit returnes to God that gave it.</hi> And if the Soule be a Spirit, and God the Father of Spirits: Then muſt the ſoule be needes immortal;
+<pb facs="tcp:150020:49"/>For though all things per<g ref="char:EOLhyphen"/>haps periſh, of which God is the Creator; yet no<g ref="char:EOLhyphen"/>thing periſheth of which God is the Father.</p>
+            <p>God made the Beaſts living creatures all at once, at leaſt made the Earth bring them forth all at once: and as they were made all at once, ſo they periſh all at once, body and ſoule, ſuch a one as they have, both together:
+<pb facs="tcp:150020:49"/>but God made man a li<g ref="char:EOLhyphen"/>ving Creature by parts; and if his parts were made ſeverally; ſhall they not continue and ſubſiſt ſeve<g ref="char:EOLhyphen"/>rally? And although the body ſeparated from the ſoule, cannot long conti<g ref="char:EOLhyphen"/>nue, becauſe it wants the cement of life that ſhould keepe it together: and be<g ref="char:EOLhyphen"/>ing a compound matter, without its proper forme muſt needes be ſoone diſ<g ref="char:EOLhyphen"/>ſolved
+<pb facs="tcp:150020:50"/>into the firſt matter; yet the ſoule ſeparated from the Body, may con<g ref="char:EOLhyphen"/>tinue long enough, ſeeing it is a ſimple forme, and a Cement to it ſelfe, which can never be diſſolved; and therefore is Immortall.</p>
+            <p>Is not the ſoule of man of a middle nature, be<g ref="char:EOLhyphen"/>tweene <hi>Formae ſimpliciter ſeparatae,</hi> and <hi>Formae ſimpli<g ref="char:EOLhyphen"/>citer Inſeparabiles,</hi> between Formes that can never be
+<pb facs="tcp:150020:50"/>but ſeparate, &amp; formes that can ne'r be but inſeparable? and therfore the ſoule may informe the body, and yet ſubſiſt without informing it</p>
+            <p>But if the ſoule depend not upon the body, how happens it that if the heart or braine of a man bee wounded or hurt, the man dyes? I ſay not therefore that the ſoule depends not upon the body, but that the Rationall Soule de<g ref="char:EOLhyphen"/>pends
+<pb facs="tcp:150020:51"/>not upon it: For the ſenſitive and vegetative parts of the ſoule depend, no doubt, upon the Heart and braine; the Animall upon the Braine, the Vitall upon the Heart; for theſe are their proper forges, I may ſay, &amp; ſeats; and if any of theſe places bee ſo hurt, that it is made unfit to be their forge or ſeate a<g ref="char:EOLhyphen"/>ny longer, they have then no longer any being in the
+<pb facs="tcp:150020:51"/>body; becauſe no longer a<g ref="char:EOLhyphen"/>ny operatio<g ref="char:cmbAbbrStroke">̄</g> in the body, as wanting their Forges to o<g ref="char:EOLhyphen"/>perate in &amp; fit inſtrume<g ref="char:cmbAbbrStroke">̄</g>ts to operate with, &amp; then a man dyes. But yet why ſhould not the Rational ſoule ſtay in the body, though the ſenſitive be gone? for ſee<g ref="char:EOLhyphen"/>ing it depends not upon a<g ref="char:EOLhyphen"/>ny part of the body; why ſhould the hurt of any part of the body drive it away? It is not that, <hi>Quoad Exi<g ref="char:EOLhyphen"/>ſtentia<g ref="char:cmbAbbrStroke">̄</g>
+                  <pb facs="tcp:150020:52"/>in corpore;</hi> as to ſubſi<g ref="char:EOLhyphen"/>ſting in the body, the ſoule is indiviſible? that if one Faculty bee aboliſhed, the other cannot ſtay? at leaſt, not the ſuperiour without the inferiour; not the Sen<g ref="char:EOLhyphen"/>ſitive without the Vege<g ref="char:EOLhyphen"/>tative; not the Rationall without the ſenſitive. For as the Elements of fire and earth, could never be joy<g ref="char:EOLhyphen"/>ned in one co<g ref="char:cmbAbbrStroke">̄</g>pound, if the aire &amp; water did not inter<g ref="char:EOLhyphen"/>cede
+<pb facs="tcp:150020:52"/>between them: ſo the Rational ſoule &amp; the body could never bee joyned in one ſubſiſtence, if the ſenſi<g ref="char:EOLhyphen"/>tive and vegative parts did hot mediate between the<g ref="char:cmbAbbrStroke">̄</g>; and, were the bond of con<g ref="char:EOLhyphen"/>nexion to hold them toge<g ref="char:EOLhyphen"/>ther, the ſame perhaps w<hi rend="sup">ch</hi> 
+               <hi>Eccleſiaſtes</hi> calls <hi>the ſilver cord;</hi> that if this bee looſe<g ref="char:EOLhyphen"/>ned, there is nothing to hold them any longer toge ther, but they are prefent<g ref="char:EOLhyphen"/>ly
+<pb facs="tcp:150020:53"/>parted from one ano<g ref="char:EOLhyphen"/>ther. And indeede, when the Rationall is left alone by it ſelfe, it is then <hi>Purè ſpiritus,</hi> meerely &amp; ſimply a ſpirit; &amp; being ſuch, it can not reſt any where, but ei<g ref="char:EOLhyphen"/>ther in Heaven or Hell: the two proper Centers of all ſeparate ſpirits. And ſeeing theſe places are immortall Manſions, what ſhould the ſoule do in either of the<g ref="char:cmbAbbrStroke">̄</g>, if it were mortall? The ſoule
+<pb facs="tcp:150020:53"/>therefore, at leaſt the Ra<g ref="char:EOLhyphen"/>tionall ſoule, which is alſo in Habit the whole ſoule, muſt needes be immortall.</p>
+            <p>If it may be made good, that the Rationall faculty can exerciſe its operation without bodily Organs, there needes then no other proofe, for the immorta<g ref="char:EOLhyphen"/>litie of the ſoule, ſeeing <hi>Modus operandi ſequitur mo<g ref="char:EOLhyphen"/>dum Eſſendi;</hi> As every thing operates, ſo it is:
+<pb facs="tcp:150020:54"/>that if the ſoule can ope<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> rate without bodily Or<g ref="char:EOLhyphen"/>gans, it may then alſo ſub<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſiiſtwithout them; &amp; if ſub<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſiſt without them, then i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> it ſeparable from the bo<g ref="char:EOLhyphen"/>dy, and thereupon immor<g ref="char:EOLhyphen"/>tall. And that the Ratio<g ref="char:EOLhyphen"/>nall faculty can exerciſe its operation with out bodily Organs, is a thing of all o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> other the moſt apparent; for what is the proper worke of the Rationall
+<pb facs="tcp:150020:54"/>faculty, but to contem<g ref="char:EOLhyphen"/>plate, and to view it ſelfe in it ſelfe, as in a glaſſe by re<g ref="char:EOLhyphen"/>flection? &amp; who can deny, but that the ſoule can doe this of it ſelfe, without the helpe of any other; and then certainely, without the helpe of bodily Or<g ref="char:EOLhyphen"/>gans. The ſenſitive facul<g ref="char:EOLhyphen"/>tie indeede hath parts of the body made of purpoſe for the exerciſe of her o<g ref="char:EOLhyphen"/>peration: the eye to ſee;
+<pb facs="tcp:150020:55"/>the eare to heare; the tongue to taſte; and for a ſpring head to them all, the braine in the Head; but the Rationall faculty hath no parts of the body made for her; and why hath it none, but becauſe it needes none: as that which can exerciſe its operatio<g ref="char:cmbAbbrStroke">̄</g> with<g ref="char:EOLhyphen"/>out them. For, if the Ra<g ref="char:EOLhyphen"/>tionall faculty did uſe bo<g ref="char:EOLhyphen"/>dily Organs, as the ſenſi<g ref="char:EOLhyphen"/>tive doth, what reaſon can
+<pb facs="tcp:150020:55"/>be given, why Beaſts ſhould not be reaſonable creatures as well as men? ſeeing they have as many, and all the ſame parts as me<g ref="char:cmbAbbrStroke">̄</g> have; that it muſt be acknowledged, ſome parts of the body, to bee either ſuperfluous in Beaſts, or defective in Men: ſuperfluous in Beaſts, if they have parts proper for underſtanding, and yet un<g ref="char:EOLhyphen"/>derſtand not; or defective in men, if they ſhould have
+<pb facs="tcp:150020:56"/>parts proper for under<g ref="char:EOLhyphen"/>ſtanding, and have them not; which, becauſe both of them are in prejudice of Nature, therefore neither of them is to be admitted. It is true, the Rationall Faculty makes uſe ſome<g ref="char:EOLhyphen"/>times of the Fantaſie, an iſſue from the Braine, and may therefore be counted a Bodily Organ; at leaſt, <hi>Germen Organi:</hi> but this is not of neceſſity, but for
+<pb facs="tcp:150020:56"/>convenience, whilſt it is in the Body; and that chiefly, if not only <hi>In ordine ad ſen<g ref="char:EOLhyphen"/>ſibilia:</hi> and if you will ſay, that the Rationall Faculty muſt needs directly have dependance upo<g ref="char:cmbAbbrStroke">̄</g> the Brain; ſeeing when the Braine is hurt, the underſtanding is hurt; when the Braine is diſtempered, the under<g ref="char:EOLhyphen"/>ſtanding is diſtempered; as in drunken or Phrantick men; May it not be juſtly
+<pb facs="tcp:150020:57"/>anſwered, that the opera<g ref="char:EOLhyphen"/>tion of the underſtanding, in this caſe, is not meerely the worke of the Rationall Faculty, but rather a mixt worke of the Rationall and Senfitive both together; ſeeing the hurt or diſtem<g ref="char:EOLhyphen"/>per of the Braine, workes not <hi>Primò &amp; Per ſe</hi> upon the Rationall Faculty, but upon the Senſitive, and from thence is tranſmitted to the Rationall, onely
+<pb facs="tcp:150020:57"/>
+               <hi>Compatiendo,</hi> by reaſon of the Sympathy that is be<g ref="char:EOLhyphen"/>tweene them; and this is no cauſe to inferre a neceſ<g ref="char:EOLhyphen"/>ſity of Dependence: For, when upon the ſeparation of the Soule from the Bo<g ref="char:EOLhyphen"/>dy, the operation of the ſenſitive Faculty ſhall ab<g ref="char:EOLhyphen"/>ſolutely ceaſe; this Sym<g ref="char:EOLhyphen"/>pathy betweene it and the Rationall Facultie ſhall then ceaſe alſo, and neither directly nor indirectly ther
+<pb facs="tcp:150020:58"/>ſhall be then any more de<g ref="char:EOLhyphen"/>pendence upon the Braine Indeed the Soule, once ſe<g ref="char:EOLhyphen"/>parated from the Body, hath no more uſe of the Braine, becauſe no more need of the Fantaſie at all, but moves then upon its owne hinges; and exerci<g ref="char:EOLhyphen"/>ſeth her operation within her owne Spheare, as that which can make its owne objects, and as being <hi>Spe<g ref="char:EOLhyphen"/>culum ſibi ipſi,</hi> a Glaſſe to it
+<pb facs="tcp:150020:58"/>ſelf, by ſo much the clee<g ref="char:EOLhyphen"/>rer, by how much the freer; for though the bo<g ref="char:EOLhyphen"/>dy be a neceſſary helpe to the ſenſitive Faculty, yet to the Intellectuall, at leaſt <hi>Quoad Intelligibilia,</hi> it is an impediment and a clogge, that from hence wee may draw an Argument, which drawes an Inference with it greater then it ſelf; That to which the Body is no helpe, but an impediment,
+<pb facs="tcp:150020:59"/>not only may ſubſiſt with<g ref="char:EOLhyphen"/>out the Body, but may ſubſiſt the better; and if it may, then at laſt it muſt; For, <hi>Fruſtra fit potentia quae non reducitur in actum;</hi> Na<g ref="char:EOLhyphen"/>ture is no ſuch unskilfull Artificer, to make a power that comes not into act: and ſo it is for the credit of Nature, that the ſoule be immortall. And why hath Nature implanted in the Soule of man, a deſire
+<pb facs="tcp:150020:59"/>of immortality, if it be not capable of immortality? Can any thing bee more vaine then to deſire impoſ<g ref="char:EOLhyphen"/>ſibility? If it be not more vaine to thinke that Na<g ref="char:EOLhyphen"/>ture makes any thing in vaine; and ſo it is for the credit of Nature ſtill, that the ſoule bee immortall. Nature hath made man in Duration of Body, like to thoſe Inferiour Creatures, to whom ſhee hath made
+<pb facs="tcp:150020:60"/>him like in faculties of the Body: and hath ſhe not as well in duration of Soule, made him like to thoſe Su<g ref="char:EOLhyphen"/>periour Creatures, to who<g ref="char:cmbAbbrStroke">̄</g> ſhe hath made him like in Faculties of the Soule? And ſo it is for the Equity of Nature, that the Soule be immortall. But more than this, Nature hath given to her meaneſt crea<g ref="char:EOLhyphen"/>tures, as Trees and Beaſts, folong a continuance, that
+<pb facs="tcp:150020:60"/>though they be not Eter<g ref="char:EOLhyphen"/>nall, yet they ſeeme to be Aeviternall; at leaſt, farre exceed the continuance of man; and would ſhee doe this, and not make man, her Nobleſt Creature, ſome amends for it, by a longer duration in another life? and ſo it is for the Equitie of Nature ſtill, that the Soule be immortall.</p>
+            <p>Who knowes not, that the Soule of man hath in
+<pb facs="tcp:150020:61"/>it three Faculties, the Ve<g ref="char:EOLhyphen"/>getative, the Senſitive, and the Rationall; of which, the two firſt are common to man with Beaſts; the third, proper only to man: The two firſt have relati<g ref="char:EOLhyphen"/>on onely to the Body, and depend upon it: The third hath no relation, at leaſt no neceſſary relation to the Body, nor dependance on it; and therefore the two firſt make a Soule,
+<pb facs="tcp:150020:61"/>which may properly bee called <hi>Anima:</hi> the third, a Soule, which may pro<g ref="char:EOLhyphen"/>perly be called <hi>Spiritus,</hi> as <hi>Eccleſiaſtes</hi> calleth it: Not ſaying the Soule, but <hi>The Spirit returnes to God that gave it.</hi> Yet not that <hi>Ani<g ref="char:EOLhyphen"/>ma</hi> and <hi>Spiritus</hi> are two di<g ref="char:EOLhyphen"/>ſtinct Soules, as the anci<g ref="char:EOLhyphen"/>ent <hi>Didymas</hi> thought, but that they are both but one Soule under two names, expreſſing a two-fold Ex<g ref="char:EOLhyphen"/>iſtence
+<pb facs="tcp:150020:62"/>and Operation: properly <hi>Anima,</hi> as it Ani<g ref="char:EOLhyphen"/>mates, and is ſenſitive and inſeparable: properly <hi>Spi<g ref="char:EOLhyphen"/>ritus,</hi> as inſeparable and in<g ref="char:EOLhyphen"/>tellectuall. And although the Soule, ſeparated from the Body, reteine all the three Faculties in Habit, yet the third onely in O<g ref="char:EOLhyphen"/>peration, becauſe only the third operates without bodily Organs, which the other two cannot; and yet
+<pb facs="tcp:150020:62"/>reaſon enough to call it the immortality of the Soule; not onely of the Spirit. And further, it may per<g ref="char:EOLhyphen"/>haps be, that as while the Soule is in the Body, the Rationall Faculty makes uſe of ſome things which were made of purpoſe for the Senſitive Faculty: So when the Soule ſhall be ſe<g ref="char:EOLhyphen"/>parated from the Body, the ſenſitive Faculty ſhall have the power of reflexi<g ref="char:EOLhyphen"/>on,
+<pb facs="tcp:150020:63"/>and be <hi>Speculum ſibi ip<g ref="char:EOLhyphen"/>ſi,</hi> a Glaſſe to it ſelf, which was proper before to the Rationall Faculty: at leaſt, by the like Endowment, whereby Angels ſee and heare, be enabled to doe that without bodily Or<g ref="char:EOLhyphen"/>gans, which it could not do before, but with them.</p>
+            <p>If the Soule of man were not immortall, it ſhould be <hi>Ex Traduce</hi> from the Pa<g ref="char:EOLhyphen"/>tents, as the ſoules of
+<pb facs="tcp:150020:63"/>Beaſts are, which are drawn <hi>E potentia materiae,</hi> from the power of the matter, of which their bo<g ref="char:EOLhyphen"/>dies are made; but the Soule of man is not drawn from the power of the matter; but <hi>Extrinſecus advenit,</hi> commeth to the Body from a forraigne po<g ref="char:EOLhyphen"/>wer: as Chriſt ſaith, <hi>Pater meus uſque nunc operatur,</hi> and therefore is not <hi>Ex Traduce;</hi> and therefore is
+<pb facs="tcp:150020:64"/>immortall. That which is drawne from the power o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the matter, muſt needes be materiall; but the ſoule of man is a ſubſtance immate<g ref="char:EOLhyphen"/>riall; for if it were not im<g ref="char:EOLhyphen"/>materiall, how could it co<g ref="char:cmbAbbrStroke">̄</g>
+               <g ref="char:EOLhyphen"/>prehend things that are im<g ref="char:EOLhyphen"/>materiall? ſeeing <hi>Modus o<g ref="char:EOLhyphen"/>perandi ſequitur modum Eſſendi;</hi> Every thing ope<g ref="char:EOLhyphen"/>rates according to its Eſ<g ref="char:EOLhyphen"/>ſence; but the ſoule of man co<g ref="char:cmbAbbrStroke">̄</g>prehends things imma<g ref="char:EOLhyphen"/>teriall,
+<pb facs="tcp:150020:64"/>Angels and Spirits, Formes and Univerſals: and could it doe this, if it were not that? could it apprehe<g ref="char:cmbAbbrStroke">̄</g>d things immateriall, if it ſelf were not immateriall? A ſtream can never naturally riſe higher than its Spring; lower it may fall, &amp; levell it may runne, but higher it cannot riſe; ſo if the ſoule were materiall, it could never riſe to apprehend things immateriall, which
+<pb facs="tcp:150020:65"/>are higher than it ſelfe; but being immateriall, it may apprehend things ma<g ref="char:EOLhyphen"/>teriall, which are lower than it ſelf; and things alſo immateriall, which are but levell with it ſelfe; and then, if it be immateriall, it is alſo incorruptible: For all corruption is from matter; where no matter is, there can be no corrup<g ref="char:EOLhyphen"/>tion; and if incorruptible, then alſo immortall; for
+<pb facs="tcp:150020:65"/>all Mortality is from cor<g ref="char:EOLhyphen"/>ruption; where no cor<g ref="char:EOLhyphen"/>ruption is, there can be no mortality; and ſo of theſe linkes I may ſay, is made up the chaine of the ſoules immortality: It is not drawne from the power of the matter; and there<g ref="char:EOLhyphen"/>fore is immateriall; and therefore is incorruptible; and therefore is immor<g ref="char:EOLhyphen"/>tall.</p>
+            <p>But if the ſoule be not
+<pb facs="tcp:150020:66"/>
+               <hi>Ex Traduce</hi> from the Pa<g ref="char:EOLhyphen"/>rents; why is it ſaid in <hi>Geneſis,</hi> that ſixty ſix ſoules went down with <hi>Jacob</hi> into <hi>Aegypt,</hi> which came all out of his loynes? for what is it to come out of his loines but to be <hi>Ex Traduce?</hi> Is it not, that they are called ſoules, becauſe they were perſons then living, when they went downe into <hi>Ae<g ref="char:EOLhyphen"/>gypt?</hi> Or is it, that they are called ſoules, <hi>à Notiori
+<pb facs="tcp:150020:66"/>parte,</hi> not <hi>à meliori;</hi> from <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>he ſenſitive and vegetative parts, which are viſible, and, in a kinde, common to man with Beaſts; and ther<g ref="char:EOLhyphen"/>fore in a kind alſo, tranſ<g ref="char:EOLhyphen"/>mitted from the Parents; but the intellectuall part, which onely is the ſoule that properly is immortal, was never in the loynes of <hi>Jacob;</hi> and therefore iſſued not to his iſſue fro<g ref="char:cmbAbbrStroke">̄</g> thence; nor is <hi>Ex Traduce</hi> from the Parents.</p>
+            <pb facs="tcp:150020:67"/>
+            <p>But how then comes o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> riginall ſinne to be in the ſoule, if it be not tranſmit<g ref="char:EOLhyphen"/>ted from the Parents? and how is it tranſmitted, if the ſoule be not <hi>Ex Tradu<g ref="char:EOLhyphen"/>ce?</hi> O my Soule, is not this the doubt, that gra<g ref="char:EOLhyphen"/>velled the great Saint <hi>Au<g ref="char:EOLhyphen"/>ſtin,</hi> a knot that hath buſi<g ref="char:EOLhyphen"/>ed the moſt learned wits to untye, and yet perhaps is not ſo untyed, but that it remaines intangled ſtill?
+<pb facs="tcp:150020:67"/>at leaſt, the ſolution to or<g ref="char:EOLhyphen"/>dinary capacities not made ſo plaine, but that there are ſeeming difficulties ſtill in it? For is it enough to ſay, that <hi>Adams</hi> ſinne was not onely perſonall, but ex<g ref="char:EOLhyphen"/>tends to all mankinde? Or to ſay, that he ſinned not as a private perſon, but as one that obliged his whole Poſterity? For doth it not follow by this, that o<g ref="char:EOLhyphen"/>riginall ſinne ſhould be by
+<pb facs="tcp:150020:68"/>imputation rather than by inherencie? when yet the ſaying of <hi>David, I was co<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>ceived in ſinne,</hi> pretends to more then imputation? And if it be inherent, then muſt it bee tranſmitted from the Parents; and if tranſmitted from them, then muſt the ſoule alſo be <hi>Ex Traduce;</hi> and ſo, this ſeemes not to cleare the doubt, but leaves us in the bryers with S. <hi>Auſtin</hi> ſtill.</p>
+            <pb facs="tcp:150020:68"/>
+            <p>Is it then, that as Saint <hi>James</hi> ſaith, <hi>He that brea<g ref="char:EOLhyphen"/>keth one Commandement, is guilty of the breach of all:</hi> ſo if ſome part of the ſoule be tainted with ſinne, it ſets a taint upo<g ref="char:cmbAbbrStroke">̄</g> the whole? And is it not, that ſo much of the ſoule, as is common to man with Beaſts, which are the ſenſitive and vege<g ref="char:EOLhyphen"/>tative, may well enough be ſaid to be <hi>Ex Traduce</hi> from the Parents; and
+<pb facs="tcp:150020:69"/>with them the concupiſci<g ref="char:EOLhyphen"/>ble part, which is the pro<g ref="char:EOLhyphen"/>per ſeate and origin of ſin? and they being originally tainted with ſinne, as be<g ref="char:EOLhyphen"/>ing tranſmitted from the Parents, ſet a taint alſo upon the intellectuall part, by the union with them; and yet, no conſequence, that this, as they, ſhould be <hi>Ex Traduce</hi> from the Parents. What though the ſoule were breathed
+<pb facs="tcp:150020:69"/>by God, entire at firſt into the body: Is it neceſſary it ſhould be ſo continued, as it was at firſt given? Why more, then that the body was made by God, all at once at firſt; and yet now by generation, is con<g ref="char:EOLhyphen"/>tinued and made up by parts? For who knowes not the order of Nature in forming the parts of the Body in the Mothers wombe? Firſt, the heart
+<pb facs="tcp:150020:70"/>is formed and lives; an<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> this is yet but the vegeta<g ref="char:EOLhyphen"/>tive part of the ſoule: the<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> (after the forming of ſome Miniſteriall parts) the Braine; and this is yet bu<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the ſenſitive part of the ſoule; and thus farre, <hi>Ex Traduce</hi> from the Parents may not unprobably bee allowed: but the Ratio<g ref="char:EOLhyphen"/>nall part is behind ſtill, as having no part of the bo<g ref="char:EOLhyphen"/>dy for the Fountaine of
+<pb facs="tcp:150020:70"/>her operation. This there<g ref="char:EOLhyphen"/>fore remaines to be infuſed by God, and is perhaps one of the workes which Chriſt meant, when hee ſaid, <hi>Pater meus uſque nunc operatur;</hi> and differs from the firſt worke but onely in this, that where hee then breathed the whole ſoule into the Body at once, hee now leaves to Nature the two inferiour parts, and reſerves to himſelfe onely
+<pb facs="tcp:150020:71"/>the conſummating part, which is the Rationall.</p>
+            <p>But would it not follow by this, there ſhould bee two ſoules in man; one generated by the Parents, another immitted into the Body by God? Indeede no; for they make all but one ſoule, onely augmen<g ref="char:EOLhyphen"/>ted by a Faculty; or rather not a Faculty, but the true ſubſtance which makes it properly to bee a ſoule:
+<pb facs="tcp:150020:71"/>For where onely the vege<g ref="char:EOLhyphen"/>tative is, as in Trees; or only the vegetative &amp; ſen<g ref="char:EOLhyphen"/>ſitive, as in beaſts, though they be commonly called ſoules; yet, truly conſide<g ref="char:EOLhyphen"/>red, they are but Faculties of life, drawne <hi>E<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>potentia materiae,</hi> from the power of the matter, of which the creatures are made, and are but as degrees and ſtages to the Rationall; this only that, which conſummates
+<pb facs="tcp:150020:72"/>and perfits it to be a ſoule and is ſo a part of the ſoule that it makes the whol<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſoule indiviſible into parts and as comming immedi<g ref="char:EOLhyphen"/>ately from God himſelfe <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> can never be diſſolved, but by God himſelfe; and is therefore by his Decree, immortall; which the ve<g ref="char:EOLhyphen"/>getative &amp; ſenſitive could never be, if the Rationall did not take them into her ſociety, or rather joyne
+<pb facs="tcp:150020:72"/>them as uniſons in Muſick <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd make them one with <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>er owne being. That which is a Roofe to a low<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>r roome, is but a Floore <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>o a higher; and ſo the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>egetative which was a <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oule in Plants; is but a Faculty to the ſenſitive in Beaſts; and the ſenſitive, which was a ſoul in Beaſts, <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>s but a Faculty to the Ra<g ref="char:EOLhyphen"/>tionall in man; for the Ra<g ref="char:EOLhyphen"/>tionall is the ſupreme
+<pb facs="tcp:150020:73"/>Roofe that perfits it to be a ſoule, and makes it fixt; and therefore immortall. But as the Rationall makes the ſenſitive immortall in one kinde; ſo the ſenſitive makes the Rationall mor<g ref="char:EOLhyphen"/>tall in another; not in du<g ref="char:EOLhyphen"/>ration, but in corruption<g ref="char:punc">▪</g> as tainting it with that fin which brought the ſen<g ref="char:EOLhyphen"/>tence of <hi>Morte morieris</hi> up<g ref="char:EOLhyphen"/>on <hi>Adam,</hi> and juſtly in <hi>A<g ref="char:EOLhyphen"/>dam</hi> upon all his poſterity
+<pb facs="tcp:150020:73"/>But whether the corrupti<g ref="char:EOLhyphen"/>on of the ſenſitive, before the Rationall come to it, which, according to the beſt Writers, is not till the fourth month after con<g ref="char:EOLhyphen"/>ceptio<g ref="char:cmbAbbrStroke">̄</g>, make the Embryon, dying within that ſpace, obnoxious to originall ſin or no, is a depth that ex<g ref="char:EOLhyphen"/>ceeds the line of my know<g ref="char:EOLhyphen"/>ledge; and perhaps of any mans elſe, without Divine Revelation: For though
+<pb facs="tcp:150020:74"/>the ſoule be not actually perfitted, till that time; yet it is actually prepared, and hath an actuall <hi>Praevi<g ref="char:EOLhyphen"/>am pravam diſpoſitionem</hi> in it before that time; and who can tell, whether this may not ſerve, and be ſuf<g ref="char:EOLhyphen"/>ficient to make obnoxious? For why elſe ſhould <hi>Da<g ref="char:EOLhyphen"/>vid</hi> ſay, <hi>I was conceived in ſinne,</hi> when the Rationall is not infuſed, till after the conception?</p>
+            <pb facs="tcp:150020:74"/>
+            <p>Or is it not, that to ſay, The ſoule is <hi>Ex Traduce</hi> from the Parents, and the ſoule is not <hi>Ex Traduce</hi> from the Parents, are both true in the Disjun<g ref="char:EOLhyphen"/>ctive, becauſe the Rationall is not, the ſenſitive is; but that the whole Soule is guilty of originall ſin; not onely when borne, but when firſt conceived, uni<g ref="char:EOLhyphen"/>verſally may paſſe without disjunctive. Or is it not,
+<pb facs="tcp:150020:75"/>that when God at firſt created <hi>Adam,</hi> it is ſaid, <hi>Male and female created hee them;</hi> and therfore, though the ſoule be <hi>Ex Traduce</hi> from the Parents; yet till the Embryon be ſo farre growne, that it may bee ſaid to be Male or Female; which is not, till the parts be all formed, and that it hath its perfit ſhape (which is not till a certaine time after the conception; but
+<pb facs="tcp:150020:75"/>that certaine time, uncer<g ref="char:EOLhyphen"/>taine how long) it cannot be juſtly thought to bee obnoxious to originall ſin, becauſe not be murder in any that ſhall deſtroy it. And this may appeare by the Law which <hi>Moſes</hi> ſets downe, <hi>Exod.</hi> 21. <hi>If one ſtrike a woman, that her fruit go from her;</hi> which in ſome Copies is thus expreſt, <hi>that her fruit goe from her, not perfitly ſhaped,</hi> the puniſh<g ref="char:EOLhyphen"/>ment
+<pb facs="tcp:150020:76"/>ſhall be the lighter but if perfitly ſhaped, th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> puniſhment ſhall be death And as long as it is in ſtate not to make it murder i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> any that ſhall deſtroy it ſo long, neither can it be<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> in ſtate, to be obnoxious to originall ſinne. Or may it not perhaps be true, tha<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the whole ſoule, with all its Faculties, is <hi>Ex Traduc<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </hi> from the Parents; as hath been held by many? and
+<pb facs="tcp:150020:76"/>ſo indeed it will be plaine, how originall ſinne is pro<g ref="char:EOLhyphen"/>pagated: But then, it will not be ſo plaine, how the ſoule ſhall be immortall; For if it bee <hi>Ex Traduce</hi> from the Parents, it muſt be drawne <hi>E potentia mate<g ref="char:EOLhyphen"/>riae,</hi> from the power of the matter; and if drawn from the power of the matter, then muſt it be materiall, as the ſoule of a Beaſt is; and if materiall, then alſo
+<pb facs="tcp:150020:77"/>corruptible; and if corrup<g ref="char:EOLhyphen"/>tible, then alſo morta<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> Indeed no; for though <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> be drawne <hi>E potentia mate<g ref="char:EOLhyphen"/>riae,</hi> from the power of th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> matter; yet not from th<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> power of the matter, ſim<g ref="char:EOLhyphen"/>ply; but <hi>E potentia mate<g ref="char:EOLhyphen"/>riae inſpiratae à Deo,</hi> from the power of the matte<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> inſpired by God; as i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> was at firſt in <hi>Adam,</hi> and as in Beaſts, it never was; and though the being
+<pb facs="tcp:150020:77"/>drawne from the power of <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e matter, would make it <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>e mortall; yet <hi>Inſpiratio <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>ei,</hi> the being inſpired by God, makes it be, as him<g ref="char:EOLhyphen"/>ſelfe is, immortall. When God at the Creation brea<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ed the ſoule into the bo<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y of <hi>Adam,</hi> there is <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>othing ſpoken of the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oule of <hi>Eve,</hi> becauſe ſhee was taken out of <hi>Adams</hi> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ide; and if it ſerved her <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>or a ſoule, that ſhe was
+<pb facs="tcp:150020:78"/>made of a part of <hi>Adam</hi> body; why not as well alſo for all other Deſcen<g ref="char:EOLhyphen"/>dents from <hi>Adam, Et natis natorum &amp; qui naſcentur ab<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> illis?</hi> ſeeing as the ſoule was then <hi>Tota in toto, &amp; tota in qualibet parte,</hi> all in the whole, and all in every part of <hi>Adams</hi> body; ſo it is ſtill in every one of ours.</p>
+            <p>Or laſtly, if this alſo be refuſed; Is it not then, that
+<pb facs="tcp:150020:78"/>we are all borne of that <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>curſed ſeed, upon which <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>e ſentence of <hi>Morte mo<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>eris,</hi> was, for the ſinne of <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>iſobedience, juſtly pro<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ounced; and though the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>oule be not <hi>Ex Traduce</hi> 
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>om the parents; yet when <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> once joynes with this <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ccurſed ſeed, and is made <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>ne with it; it juſtly be<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>omes both guilty of the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>inne and ſubject to the <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>urſe; and ſhall ſo conti<g ref="char:EOLhyphen"/>nue,
+<pb facs="tcp:150020:79"/>untill the ſeede of the woman take both the guilt of the ſinne, and the curſe of the Law upon himſelfe, to free us from both; and now if you will ſay, It is hard meaſure in God, to lay the penalty of one mans offence, upon all his poſterity; you muſt with<g ref="char:EOLhyphen"/>all ſay, it is great mercy in God, to impute the merit of one mans righteouſ<g ref="char:EOLhyphen"/>neſſe, to all his followers;
+<pb facs="tcp:150020:79"/>that as the moſt you can ſay in that caſe, is that <hi>God</hi> is a juſt Judge; ſo the leaſt you can ſay in this caſe, is, that he is a Mercifull Re<g ref="char:EOLhyphen"/>deemer, and now and e<g ref="char:EOLhyphen"/>ver, a Faithfull Crea<g ref="char:EOLhyphen"/>tour.</p>
+            <p>If the ſoule did die with the body, why ſhould it not as well be ſicke with the body, and grow old with the body? But this is found by daily experi<g ref="char:EOLhyphen"/>ence,
+<pb facs="tcp:150020:80"/>that in the ſickneſſe of the body, the ſoule is commonly beſt in health; and in the age of the body, the ſoule is yet yong ſtill, or rather hath the greateſt vigour in theſe two ſea<g ref="char:EOLhyphen"/>ſons; the ſenſitive part in<g ref="char:EOLhyphen"/>deed, becauſe it uſeth bo<g ref="char:EOLhyphen"/>dily Organs, muſt needes decay with their decaying; but the intellectuall part which neither uſeth any, nor hath uſe of any, con<g ref="char:EOLhyphen"/>tinues
+<pb facs="tcp:150020:80"/>to be it ſelfe ſtill, what ever they be; cor<g ref="char:EOLhyphen"/>rupted perhaps in her quality, but not made cor<g ref="char:EOLhyphen"/>ruptible in her ſubſtance; and even when it is at the very point of disbanding and leaving the body, yet then ſhe exerciſeth the o<g ref="char:EOLhyphen"/>peration of her Faculty, in as great vigour as ever, un<g ref="char:EOLhyphen"/>derſtands as much, knowes as much, apprehends as much as at any time be<g ref="char:EOLhyphen"/>fore:
+<pb facs="tcp:150020:81"/>And could it doe ſo, if it depended upon the body, which is then all out of frame and in con<g ref="char:EOLhyphen"/>fuſion? It is indeed plain<g ref="char:EOLhyphen"/>ly to be ſeene, that while the vegetative Facultie is in the greateſt vigour, all that while wee uſe the ſenſitive but little, the Ra<g ref="char:EOLhyphen"/>tionall not at all, as is ſeen in Infants and little Chil<g ref="char:EOLhyphen"/>dren; and while the ſenſi<g ref="char:EOLhyphen"/>tive Faculty is in the grea<g ref="char:EOLhyphen"/>teſt
+<pb facs="tcp:150020:81"/>vigour, all that while we uſe the Rationall but little, which makes youth commonly ſo intemperate as it is; but when the ſen<g ref="char:EOLhyphen"/>ſitive and vegetative Fa<g ref="char:EOLhyphen"/>culties grow to decay, as in old age they doe, then comes the Rationall to be in greateſt force; which makes old men common<g ref="char:EOLhyphen"/>ly to be of ſoundeſt judge<g ref="char:EOLhyphen"/>ments; and therefore ſee<g ref="char:EOLhyphen"/>ing the Rationall Faculty
+<pb facs="tcp:150020:82"/>decayes not with the bo<g ref="char:EOLhyphen"/>dy, as the other doe; nei<g ref="char:EOLhyphen"/>ther is it poſſible it ſhould be extinct with the Body, as the other are.</p>
+            <p>If the ſoule periſh toge<g ref="char:EOLhyphen"/>ther with the body, then it periſheth before the body; for the body reteines its proportion and ſhape, at leaſt for ſome time, after the ſoul hath left it; but the foule, if it periſh then, re<g ref="char:EOLhyphen"/>teines nothing at all of all
+<pb facs="tcp:150020:82"/>her Faculties, they are all extinct and gone; and ſo by this reckoning, the bo<g ref="char:EOLhyphen"/>dy ſhould be a longer la<g ref="char:EOLhyphen"/>ſter than the ſoule; which though it be true in Beaſts, whoſe ſoule is perhaps nothing but the life; yet it is falſe in man, whoſe ſoule is a ſubſtance, ſub<g ref="char:EOLhyphen"/>fiſting by it ſelfe, and ſepa<g ref="char:EOLhyphen"/>rable from the body.</p>
+            <p>But though by theſe words of <hi>Salomon, Who
+<pb facs="tcp:150020:83"/>knoweth the Soule of a man that goeth downward, or the ſoule of a man that goeth up<g ref="char:EOLhyphen"/>ward;</hi> It may be gathered there is <hi>Aliquid impercep<g ref="char:EOLhyphen"/>tibile</hi> in the ſoule of man, ſomething ſo obſcure and hidden, that makes it im<g ref="char:EOLhyphen"/>poſſible to be thorowly underſtood; and there<g ref="char:EOLhyphen"/>fore no demonſtrative Ar<g ref="char:EOLhyphen"/>guments can bee drawne from thence, to make a pe<g ref="char:EOLhyphen"/>remptory concluſion of
+<pb facs="tcp:150020:83"/>its immortality; yet there are Arguments enow, ſome drawne from the nature of the ſoule it ſelfe, and ſome from for<g ref="char:EOLhyphen"/>raigne circumſtances, that evidently evince it, againſt all oppoſition, to bee im<g ref="char:EOLhyphen"/>mortall: For the ſoule of man can apprehend im<g ref="char:EOLhyphen"/>mortality, which Beaſts cannot; and ſhall it not bee capable of immortality, though Beaſts are not?
+<pb facs="tcp:150020:84"/>And more then this, the ſoule of man can diſcharge the Function of immorta<g ref="char:EOLhyphen"/>lity, which is to make of all times, one; reducing the time paſt, and that which is to come, into the preſent; and is it poſſible it ſhould doe the worke of immortality, and not bee immortall? If the ſoule of man bee not immortall, then neither are the An<g ref="char:EOLhyphen"/>gels immortall; for they
+<pb facs="tcp:150020:84"/>are all made of the ſame immateriall mettall; which if it be durable in the one, why not as well durable in the other? muſt not thoſe creatures be needes of the ſame nature and condition, which do all alike the ſame actions, inſiſt all alike up<g ref="char:EOLhyphen"/>on the ſame object, have all alike the ſame <hi>Summum bonum;</hi> but all theſe are common alike to men and Angels; to both which
+<pb facs="tcp:150020:85"/>the <hi>Summum Bonum</hi> is to enjoy Gods Preſence; the chiefe Object, is the bleſſed Face of God; the Finall actions, are to glo<g ref="char:EOLhyphen"/>rifie God; if then Immor<g ref="char:EOLhyphen"/>tality be granted to the Nature of Angels; how can it be denyed to the Soule of man? The Soule of man can apprehend God, who onely is immor<g ref="char:EOLhyphen"/>all; and can that be mor<g ref="char:EOLhyphen"/>tall,
+<pb facs="tcp:150020:85"/>which apprehends him that is immortall? and more then this, the ſoule of man is the onely Crea<g ref="char:EOLhyphen"/>ture in this inferiour world, that can praiſe God; and ſeeing Gods praiſe ſhall never ceaſe; can that ceaſe which is to praiſe him? And ſo it is for the glory of God, that the ſoule be immortall. Hath not God made the Heavens and the
+<pb facs="tcp:150020:86"/>Earth for the uſe of man, therein to glorifie him? and ſhall he uſe them no longer than this life? and longer he cannot uſe them if the ſoule be mortall: and ſo it is for the glory of God ſtill, that the ſoule be immortall. If the ſoule be not immortall; when is it, that God puniſheth the wicked, and rewar<g ref="char:EOLhyphen"/>deth the godly? ſeeing,
+<pb facs="tcp:150020:86"/>not in this life, if not in a<g ref="char:EOLhyphen"/>nother? and not in ano<g ref="char:EOLhyphen"/>ther, if the ſoule be mor<g ref="char:EOLhyphen"/>tall? and ſo it is for the Juſtice of God, that the ſoule be immortall. If the ſoule bee not immortall; what good is it, that <hi>In memoria aeterna erit justus,</hi> the Righteous ſhall be had in everlaſting remem<g ref="char:EOLhyphen"/>brance; of which hee can neither be ſenſible nor in<g ref="char:EOLhyphen"/>telligent?
+<pb facs="tcp:150020:87"/>and ſo it is fo<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> the Juſtice of God ſtil, that the ſoule bee immortall. If the ſoule be not immor<g ref="char:EOLhyphen"/>tall, how ſhall the places of the Angels that fell, be filled up againe? Or ſhall they ſtand empty for ever, as though God had not power to fill them up? and ſo it is for the Power of God, that the ſoule bee immortall. If the Soule
+<pb facs="tcp:150020:87" rendition="simple:additions"/>be not immortall; how is God, the God of <hi>Abra<g ref="char:EOLhyphen"/>ham,</hi> the God of <hi>Iſaack,</hi> and the God of <hi>Jacob?</hi> for he is not the God of the dead, but of the li<g ref="char:EOLhyphen"/>ving; and living they could not be, if the Soule were mortall; and ſo it is for the Power of God ſtill, that the ſoule be immor<g ref="char:EOLhyphen"/>tall? And now, my ſoule, wilt thou rather detract
+<pb facs="tcp:150020:88"/>from Gods Glory, from his Juſtice, from his Po<g ref="char:EOLhyphen"/>wer, than believe and ac<g ref="char:EOLhyphen"/>knowledge, that the ſoule is immortall? Shall Hea<g ref="char:EOLhyphen"/>then men, who had ſcarce any hope of good after this life? Shall a Hea<g ref="char:EOLhyphen"/>then Poet ſay, <hi>Et cum fri<g ref="char:EOLhyphen"/>gida mors Anima ſeduxerit artus;</hi> making death not a deſtruction of the ſoule, but onely a ſeparation of it
+<pb facs="tcp:150020:88"/>from the body; and ſhall we whoſe chiefe bleſſed<g ref="char:EOLhyphen"/>neſſe conſiſts in the expe<g ref="char:EOLhyphen"/>ctation of our ſoules bleſ<g ref="char:EOLhyphen"/>ſednes after this life, make a doubt, whether the ſoule of man be immortall, or no? Are there not mani<g ref="char:EOLhyphen"/>feſt Arguments to evince it; and ſuch as are obvi<g ref="char:EOLhyphen"/>ous to ſenſe, both in the dead, and in the living? For, is it nothing, that in
+<pb facs="tcp:150020:89"/>all ages there have beene apparitions of man depar<g ref="char:EOLhyphen"/>ted; whereof, though ſome perhaps be Fables, and ſome deluſions; yet many, no doubt, are true Relations, and have beene Reall Repreſentations; which could be none, if the ſoule were mortall. And if it be doubted, whe<g ref="char:EOLhyphen"/>ther any ſuch apparitions have been, or no; have we
+<pb facs="tcp:150020:89"/>not the learned <hi>Melan<g ref="char:EOLhyphen"/>cthon,</hi> a reverend Writer of late time, affirming him<g ref="char:EOLhyphen"/>ſelfe to have beene an eye<g ref="char:EOLhyphen"/>witneſſe? Have wee not the learned <hi>Ludovicus Vi<g ref="char:EOLhyphen"/>ves,</hi> affirming many of his acquaintance, men worthy of credit, to have ſeene and ſpoken with them, and heard many things related by them, a<g ref="char:EOLhyphen"/>bove the pitch of Nature?
+<pb facs="tcp:150020:90"/>that nothing is more cer<g ref="char:EOLhyphen"/>taine than ſuch appariti<g ref="char:EOLhyphen"/>ons, which could be none, if the ſoule were mortall. What though it were not the true <hi>Samuel</hi> that ap<g ref="char:EOLhyphen"/>peared to <hi>Saul,</hi> but a delu<g ref="char:EOLhyphen"/>ſion of Satan; yet was there no ground for his uſing ſuch deluſion, which could be none, if the ſoule were mortall. Is it no<g ref="char:EOLhyphen"/>thing, that the Devill of<g ref="char:EOLhyphen"/>tentimes
+<pb facs="tcp:150020:90"/>makes Pacts and bargaines with wicked men, to doe great matters for them in this preſent life, upon a hope and de<g ref="char:EOLhyphen"/>ſire of their deſtruction in the next? which could be none if the ſoule were mortall: and if any doubt of ſuch Pacts with the Devill, have we not <hi>Confi<g ref="char:EOLhyphen"/>tentes reos,</hi> daily examples of Delinquents them<g ref="char:EOLhyphen"/>ſelves,
+<pb facs="tcp:150020:91"/>averring it at their deaths, no time to diſſem<g ref="char:EOLhyphen"/>ble? that nothing is more certaine, then that ſuch Pacts are made; which could be none, if the ſoule were mortall. Is it no<g ref="char:EOLhyphen"/>thing, that the conſciences of all men, whether good or bad, give evident teſti<g ref="char:EOLhyphen"/>mony of this truth, of the ſoules immortality? For why elſe ſhould good men
+<pb facs="tcp:150020:91"/>dye ſo patiently, indeed ſo joyfully, if they had not a hope of a better life after this? which could bee none if the ſoule were mortall. Or why ſhould wicked men dye ſo unwil<g ref="char:EOLhyphen"/>lingly, indeed ſo feareful<g ref="char:EOLhyphen"/>ly, if their conſcience did not give them, there would be ſenſe of paine remaining after death; which could be none, if
+<pb facs="tcp:150020:92"/>the ſoule were mortal Have not all wiſe men, a the world over, affirme and beleeved the ſoule o<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> man to be immortall; one<g ref="char:EOLhyphen"/>ly ſome few fooles wh<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> have ſaid in their hearts there is no God; hav<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> ſaid alſo with thei<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> mouthes, The ſoule i<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> mortall: and ſhall we ra<g ref="char:EOLhyphen"/>ther joyne in aſſent wit<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap> theſe few fooles, tha<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+               <pb facs="tcp:150020:92"/>with thoſe many wiſe men? No, my ſoule, let Epicureans, and Saddu<g ref="char:EOLhyphen"/>cees, and Atheiſts doubt their pleaſures, till their doubt be reſolved by the feeling Argument of eter<g ref="char:EOLhyphen"/>nall paines; but let this be thy Pillar, or rather thy <hi>Murus Aheneus;</hi> that after this life, there will be reward for the God<g ref="char:EOLhyphen"/>ly, and puniſhment for
+<pb facs="tcp:150020:93"/>the wicked; that <hi>In me<g ref="char:EOLhyphen"/>moria aeterna erit juſtus;</hi> the Righteous ſhall bee had in Everlaſting remem<g ref="char:EOLhyphen"/>brance; that the number of Angels that fell from Heaven, ſhall be filled up with Saints from the Earth; and eſpecially, that God is the God of <hi>Abraham,</hi> the God of <hi>I<g ref="char:EOLhyphen"/>ſaack,</hi> and the God of <hi>Ja<g ref="char:EOLhyphen"/>cob;</hi> and then I doubt not
+<pb facs="tcp:150020:93"/>thou wilt be ſatisfied of this doubt; and not on<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y of thine owne, but of <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>hy bodies immortality; that ſo thou maiſt por <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>onely immortally be <hi>Spi<g ref="char:EOLhyphen"/>ritus,</hi> but immortally be <hi>Anima;</hi> for though thou wilt properly bee but <hi>Spi<g ref="char:EOLhyphen"/>ritus,</hi> till the body riſe a<g ref="char:EOLhyphen"/>gaine; yet after the Re<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>urrection, thou wilt pro<g ref="char:EOLhyphen"/>
+               <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>erly be <hi>Anima</hi> againe,
+<pb facs="tcp:150020:94"/>and have all thy Faculties, not onely in Habit, but in Operation, and Animate the Body in a greater per<g ref="char:EOLhyphen"/>fection than ever before; for the body will then have greater endowments of thy Facultie <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> thou art properly <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> by a more vigorous vegetati<g ref="char:EOLhyphen"/>on, and perſpicacity of ſenſe, and greater endow<g ref="char:EOLhyphen"/>ments alſo of thy Facul<g ref="char:EOLhyphen"/>ties,
+<pb facs="tcp:150020:94"/>as thou art properly <hi>Spiritus,</hi> by celerity of mo<g ref="char:EOLhyphen"/>tion, and by ſubtilty of dimenſion; by which per<g ref="char:EOLhyphen"/>haps it was that Chriſt af<g ref="char:EOLhyphen"/>ter his Reſurrection, came in amongſt his Apoſtles when the doores were ſhut; for ſo it was fit for a body being then ſpiri<g ref="char:EOLhyphen"/>tuall. Now indeede, <hi>Cor<g ref="char:EOLhyphen"/>pus aggravat Animam,</hi> the body is a burthen to the
+<pb facs="tcp:150020:95"/>ſoule; but as much as the body aggravates the ſoule now, and makes her participate of its infirmi<g ref="char:EOLhyphen"/>ties, ſo much and more will the ſcale then allevi<g ref="char:EOLhyphen"/>ate the body, and make it participate of her perfe<g ref="char:EOLhyphen"/>ctions.</p>
+            <p>And who now is ſo ſtu<g ref="char:EOLhyphen"/>pid, that findes not a ſweet ſhowre of perſwaſion to fall upon him from this
+<pb facs="tcp:150020:95"/>cloud of Reaſons? where<g ref="char:EOLhyphen"/>of, though every drop by it ſelfe may ſeeme to wet but little, yet all together make a ſhowre able to wet to the roote; but if any mans temper be ſo hard, that no ſhowre will molli<g ref="char:EOLhyphen"/>fie it; if any man be ſo unreaſonable, that no rea<g ref="char:EOLhyphen"/>ſon will ſatisfie him; yet there is hope, that Faith will; for Faith raines
+<pb facs="tcp:150020:96"/>downe a ſtronger ſhowre of perſwaſion than Rea<g ref="char:EOLhyphen"/>ſon can; and this beliefe of the ſoules Immortality, is the mayne Root, up<g ref="char:EOLhyphen"/>on which all Faith is grounded; For if the ſoule bee not believed to bee Immortall; where is the aſſurance of for<g ref="char:EOLhyphen"/>giveneſſe of ſinnes? where the hope of Reſurrection from the Dead? where, the
+<pb facs="tcp:150020:96"/>expectation of life ever<g ref="char:EOLhyphen"/>laſting? And if any man ſtill be poſſeſt with a ſtu<g ref="char:EOLhyphen"/>pidity of this doubt, that, neither Reaſon can per<g ref="char:EOLhyphen"/>ſwade him, as a man; nor Faith over-rule him, as a Chriſtian, I muſt then leave him, to feede upon graſſe with the Beaſt of the Field, like <hi>Nabuchadonozer,</hi> untill like <hi>Nabuchodonozer</hi> he reco<g ref="char:EOLhyphen"/>ver
+<pb facs="tcp:150020:97"/>his ſenſes; and recant his Errour; and then hee will bee able and ſhall have leave, to make a be<g ref="char:EOLhyphen"/>nefit, and to take the be<g ref="char:EOLhyphen"/>nefit of this cloud of Rea<g ref="char:EOLhyphen"/>ſons.</p>
+            <p>And now, my ſoule, thou art ſure of immorta<g ref="char:EOLhyphen"/>lity, a Fee Simple, that no time can weare out, no forfeiture extinguiſh: but alas! what good is it to
+<pb facs="tcp:150020:97"/>have Immortality, if it be not accompanied with Beatitude? and accom<g ref="char:EOLhyphen"/>panied with Beatitude it will never bee, if God vouchſafe not his Beatifi<g ref="char:EOLhyphen"/>call Viſion; and that Vi<g ref="char:EOLhyphen"/>ſion hee will never vouch<g ref="char:EOLhyphen"/>ſafe thee, if thou bee not <hi>Mundo Corde,</hi> of a pure heart in his ſight: For <hi>Be<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ti mundo Corde, quoniam <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>pſi videbunt Deum,</hi> Bleſ<g ref="char:EOLhyphen"/>ſed
+<pb facs="tcp:150020:98"/>are the pure in heart, for they ſhall ſee God: O therefore, my ſoule, en<g ref="char:EOLhyphen"/>devour ſo to ſerve God, with a pure heart in this mortall life, that wh<gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap> thou commeſt to thy true Immortality in the next thou mayſt be admitted to ſee that Beatificall Viſion; <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd mayſt be immortall in <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>joying of Happineſſe and not in feeling of tor<g ref="char:EOLhyphen"/>ments;
+<pb facs="tcp:150020:98"/>thy Joy may bee <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>mmortall, and not thy Miſery. And let this bee <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>y Pillar upon which to <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                  <desc>••</desc>
+               </gap>xe thy Thoughts.</p>
+         </div>
+      </body>
+   </text>
+</TEI>
